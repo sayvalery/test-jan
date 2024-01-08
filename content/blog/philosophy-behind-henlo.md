@@ -3,7 +3,7 @@ id: xgQrAIMuR
 type: post
 layout: post
 title: Вторая статья
-permalink: /blog/redhead/
+permalink: /blog/redhead2/
 thumbnail: /img/henlo-cover.png
 date: 2022-05-11T19:16:41.067Z
 author: Wrrlc-8nw
