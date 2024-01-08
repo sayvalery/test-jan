@@ -25,7 +25,19 @@ const config = {
     },
     media_folder: '/static/img',
     public_folder: '/img',
-    collections: [pages, posts, authors, settings],
+    collections: [pages, posts, authors, settings,
+      {
+        name: "blog",
+        label: "Blog",
+        folder: "content/blog",
+        create: true,
+        slug: "{{year}}-{{month}}-{{day}}-{{slug}}",
+        fields: [
+          {label: "Title", name: "title", widget: "string"},
+          {label: "Body", name: "body", widget: "markdown"},
+          // Add other fields as needed
+        ]
+      }],
   },
 };
 
