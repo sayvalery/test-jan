@@ -27,7 +27,7 @@ const config = {
     public_folder: '/img',
     collections: [pages, posts, authors, settings,
       {
-        name: "blog",
+        name: "newBlog",
         label: "Blog",
         folder: "content/blog",
         create: true,
