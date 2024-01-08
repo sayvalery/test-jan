@@ -5,9 +5,6 @@ import { ID } from '../fields';
 const collection = {
   name: 'blog',
   label: 'Posts',
-  editor: {
-    preview: false,
-  },
   description: 'Blog posts collection',
   folder: 'content/blog',
   slug: '{{slug}}',
